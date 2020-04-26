@@ -10,7 +10,7 @@ if (isset($_POST['submit'])){
    
    
    
-   $mailTo = 'harshvardhandutta@gmail.com';
+   $mailTo = 'https://harshvardhan04.github.io/';
    $headers = "From: ".$mailFrom;
    $txt = "You have received an e-mail from ".$name."./n/n".$messsage;
    mail($mailTo, $subject, $txt, $headers);
